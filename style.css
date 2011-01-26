@@ -1,0 +1,125 @@
+/*
+* i love people 
+* p.beeker
+* v0.1
+*
+* used stuff / credits to 
+* http://matthewjamestaylor.com/blog/keeping-footers-at-the-bottom-of-the-page
+*/
+
+/*  colours:
+	#a9a9a9;	darkgrey
+	#dcdcdc  lightgrey 
+*/
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: Georgia, Arial;
+	font-weight: lighter;	
+}
+
+#container {   
+   position: relative;
+}
+
+#header {
+	top: 0;
+	width: 100%;		
+	background: #fff; 
+}
+
+#body {	
+	padding: 5px;    
+}
+
+#body-about {	
+	padding: 10px;
+}
+
+#about {
+	color: #a9a9a9;	
+	font-size: 15px; 
+	width: 400px; 
+	margin: 0 0 0 0px;
+}
+
+#invite {	
+	margin: 0 0 0 0;
+	padding: 0px 10px 0px 10px;
+}
+
+.phrase {
+	padding: 3px 3px 3px 3px;
+	/* margin: 0 0 0 0;*/
+	font-size: 30px;	
+	font-style: italic;
+	background: red;
+	color: #fff;
+}
+
+.bread {
+	font-size: 30%;
+	margin: 0 0 0 0;
+	text-transform: uppercase;
+}
+
+h1 {
+	
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: left;
+	padding: 0 0 0 10px;	
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+
+#suggest_box {
+	text-transform: uppercase;
+	float: right;	
+	font-size: 90%;
+	padding: 20px 5px 5px 5px; 
+	width: 235px;
+	color: #a9a9a9;		
+}
+
+a:link{
+	color: #a9a9a9;
+}
+a:hover {
+	color: red;
+}
+a:visited {
+	color: red;
+}
+
+.rule {
+	padding: 0 0 0 5px;
+	margin: 0 0 0 0;
+	color: #a9a9a9;	
+}
+
+.heartBig {
+	color: red; 
+	font-size: 120%;
+}
+
+.heart {
+	color: red; 
+	font-size: 110%; 
+	vertical-align: 10%;
+}
+
+.writing {	
+	font-size: 27px;
+	font-weight: normal;
+}
+
+.stamp {
+	font-size: 70%;
+}
+
+
+
